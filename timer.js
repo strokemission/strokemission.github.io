@@ -17,7 +17,7 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Display the result in the element with id="demo"
+  // Create elements that display day,hours,minutes,seconds
   document.getElementById("day").innerHTML = days 
   document.getElementById("hour").innerHTML = hours 
   document.getElementById("minute").innerHTML = minutes 
